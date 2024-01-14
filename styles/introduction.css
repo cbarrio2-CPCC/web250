@@ -1,0 +1,10 @@
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+}
+.sublist p {
+    list-style-type: circle;
+}
