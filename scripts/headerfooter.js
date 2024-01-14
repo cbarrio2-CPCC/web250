@@ -23,10 +23,10 @@ window.addEventListener('DOMContentLoaded', ()=>{
         </ul>
         <br>
         <p>Designed by &copy;Barrion CudaCorp</p>
-        <a href="http://validator.w3.org/check?uri=referer" style = "text-decoration: none">
+        <a href="http://validator.w3.org/check?uri=${window.location.href}" style = "text-decoration: none">
             <img src="images/validation_button_html-blue.png" alt="Validate HTML" />
         </a>
-        <a href="http://jigsaw.w3.org/css-validator/check/referer" style = "text-decoration: none">
+        <a href="http://jigsaw.w3.org/css-validator/validator?uri=${window.location.href}" style = "text-decoration: none">
             <img src="images/validation_button_css-blue.png" alt="Validate CSS" />
         </a>
     `
