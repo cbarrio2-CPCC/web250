@@ -1,12 +1,12 @@
 window.addEventListener('DOMContentLoaded', ()=>{
     const header = document.querySelector('header')
     header.innerHTML = `
-        <h1>Clerick Barrion's Celestial Barracuda &#376 WEB250</h1>
+        <h1>Clerick Barrion's Celestial Barracuda &#376; WEB250</h1>
         <nav>
             <ul>
                 <li><a href="./">Home</a></li>
                 <li><a href="introduction.html">Introduction</a></li>
-                <li><a href="contract.html">Contact</a></li>
+                <li><a href="contract.html">Contract</a></li>
             </ul>
         </nav>
     `
