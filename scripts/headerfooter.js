@@ -7,6 +7,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
                 <li><a href="./">Home</a></li>
                 <li><a href="introduction.html">Introduction</a></li>
                 <li><a href="contract.html">Contract</a></li>
+                <li><a href="brand.html">Brand</a></li>
             </ul>
         </nav>
     `
@@ -22,7 +23,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
             <li><a href="https://www.linkedin.com/in/clerickbarrion">LinkedIn</a></li>
         </ul>
         <br>
-        <p>Designed by &copy;Barrion CudaCorp</p>
+        <p>Designed by Barrion CudaCorp &copy; 2024</p>
         <a href="http://validator.w3.org/check?uri=${window.location.href}" style = "text-decoration: none">
             <img src="images/validation_button_html-blue.png" alt="Validate HTML" />
         </a>
