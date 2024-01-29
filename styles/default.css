@@ -5,9 +5,9 @@ html, body{
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: lavender;
+  color: #004080;
   background-color: lightcoral;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-align: center;
   display:flex;
   flex-direction: column;
@@ -24,6 +24,12 @@ main {
   text-align: left;
   width: 70%;
 }
+
+article {
+  background-color: #F4978E;
+  text-align: center;
+}
+
 
 p {
   margin: 1rem;
