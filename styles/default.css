@@ -63,7 +63,19 @@ a {
   text-decoration: none;
 }
 
+figure {
+  text-align: center;
+}
+
 figure img {
   width: 20%;
   height: auto;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+.sublist p {
+  list-style-type: circle;
 }
