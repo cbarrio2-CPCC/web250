@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 html, body{
   height: 100%;
-  margin: 0;
+  width: 90%;
+  margin: auto;
 }
 
 body {
@@ -11,28 +14,29 @@ body {
   text-align: center;
   display:flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 h1,h2,h3 {
-  font-family: 'Pacifico', cursive;
+  font-family: Montserrat, Arial, sans-serif;
   text-align: center;
 }
 
 main {
   margin: 1rem auto;
   text-align: left;
-  width: 70%;
 }
 
 article {
-  background-color: #F4978E;
   text-align: center;
 }
 
 
 p {
   margin: 1rem;
+}
+
+footer {
+  position: relative;
 }
 
 footer ul, nav ul {
