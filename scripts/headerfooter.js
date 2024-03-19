@@ -2,6 +2,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
     const header = document.querySelector('header')
     header.innerHTML = `
         <h1>Clerick Barrion's Celestial Barracuda &#8225; WEB250</h1>
+        <small>Dive Deep With CudaCorp</small>
         <nav>
             <ul>
                 <li><a href="./">Home</a></li>

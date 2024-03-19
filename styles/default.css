@@ -21,6 +21,11 @@ h1,h2,h3 {
   text-align: center;
 }
 
+small {
+  display:block;
+  width: fit-content;
+}
+
 main {
   margin: 1rem auto;
   text-align: left;
