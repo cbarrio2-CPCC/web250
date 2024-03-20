@@ -1,0 +1,18 @@
+<main>
+    <h1>CudaCorp</h1>
+    <article>
+        <h3>Concept</h3>
+        <p>A company with the goal of offering the best pet fish and aquarium services.</p>
+        <h3>Mission Statement</h3>
+        <p>We are committed to providing a curated selection of vibrant and healthy fish, coupled with premium aquarium solutions. Our dedication to excellence extends beyond products, as we strive to create a community where passion for aquatic life thrives.</p>
+        <h3>Catchphrase</h3>
+        <em>Dive Deep With CudaCorp</em>
+        <h3>Color Schemes</h3>
+        <p>Background: lightcoral #F08080, coral pink #F4978E </p>
+        <p>Foreground: melon #F8AD9D, apricot #FBC4AB</p>
+        <p>Text color: dark blue #004080, lavendar #E6E6FA</p>
+        <h3>Fonts</h3>
+        <p>Headings: Montserrat</p>
+        <p>Body Text: Segoe UI</p>
+    </article>
+</main>

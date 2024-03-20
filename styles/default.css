@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body{
+  height: 100%;
+  width: 90%;
+  margin: auto;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #004080;
+  background-color: lightcoral;
+  font-size: 1.3rem;
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+}
+
+h1,h2,h3 {
+  font-family: Montserrat, Arial, sans-serif;
+  text-align: center;
+}
+
+small {
+  display:block;
+  width: fit-content;
+}
+
+main {
+  text-align: left;
+  width: 100%;
+}
+
+article {
+  text-align: center;
+}
+
+
+p {
+  margin: 1rem;
+}
+
+footer {
+  position: relative;
+}
+
+footer ul, nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  float: left;
+  width: 20%;
+  list-style-type: none;
+}
+
+footer ul li {
+  float: left;
+  width:14.28571429%;
+  list-style-type: none;
+}
+
+footer ul li a, nav ul li a {
+  display: block;
+  width: 100%;
+  color: lavender;
+  border: 1px solid lavender
+}
+
+a {
+  text-decoration: none;
+}
+
+figure {
+  text-align: center;
+}
+
+figure img {
+  width: 20%;
+  height: auto;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+.sublist p {
+  list-style-type: circle;
+}
+
+hr {
+  border-color:#004080
+}
+
+#form-wrapper {
+  display:flex;
+  justify-content: center;
+  width:100%;
+}
+
+#form-wrapper fieldset {
+  border: 1px solid #004080;
+}
+
+#rate-wrapper {
+  display: flex;
+  gap: 0.2rem;
+}
+
+input[type="submit"], input[type="reset"] {
+  background-color: #004080;
+  color: lightcoral;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+#everything-form, #everything-form fieldset {
+  display: flex;
+  width: 50vw;
+}
+
+#everything-form div {
+  width: 50%;
+}
+
+div#everything-button-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  width:100%;
+}
+
+.everything-button[type="submit"], .everything-button[type="reset"] {
+  width:50%;
+}

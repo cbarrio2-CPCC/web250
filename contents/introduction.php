@@ -1,0 +1,26 @@
+<main>
+    <h2>Clerick Barrion : Introduction</h2>
+    <figure>
+        <img src="images/clerickblowingrock.jpg" alt="me sitting on blowing rock">
+        <figcaption>Sitting on top of Blowing Rock</figcaption>
+    </figure>
+    <ul>
+        <li><strong>Personal Background: </strong>I was born in the Philippines and I moved to New Jersey when I was 5. I moved to North Carolina when I was 11 and I have been living here since.</li>
+        <li><strong>Professional Background: </strong>I'm currently a coding apprentice in a program called Road to Hire. It's a 6 month program where they teach us skills regarding web development. I started in September and now there's 8 weeks left to go.</li>
+        <li><strong>Academic Background: </strong>I graduated high school in 2022 and now I'm working towards an Associate's Degree in Full Stack Programming in CPCC.</li>
+        <li><strong>Background in this Subject: </strong>I took an AP computer science course in high school as well as a python programming course. I've been tinkering with what I've learned there and in CPCC and managed to make a flashcard automator.</li>
+        <li><strong>Primary Computer Platform: </strong>A desktop running on Windows 10.</li>
+        <li class="sublist">
+            <strong>Courses I'm Taking & Why:</strong>
+            <ul>
+                <li><a href="?p=contents/contract.php"><strong>WEB250 - Database-Driven Websites: </strong></a>To learn how websites use data.</li>
+                <li><strong>CTI130 - Os and Device Foundation: </strong>To learn more about computer hardware and software.</li>
+                <li><strong>CSC221 - Advanced Python Programming: </strong>Projects in the previous python course were fun, so this one should also be interesting.</li>
+                <li><strong>CIS110 - Introduction to Computers: </strong>To learn more about computers.</li>
+            </ul>
+            
+        </li>
+        <li><strong>Funny/Interesting Item to Remember me by: </strong>I can juggle. I learned how to in a juggling club in 5th grade.</li>
+        <li><strong>I'd also like to Share: </strong>The highest score I got while bowling was a 220.</li>
+    </ul>
+</main>
