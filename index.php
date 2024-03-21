@@ -17,6 +17,7 @@
                     <li><a href="?p=contents/contract.php">Contract</a></li>
                     <li><a href="?p=contents/brand.php">Brand</a></li>
                     <li><a href="?p=contents/form.php">Form</a></li>
+                    <li><a href="?p=contents/browse.php">Browse</a></li>
                </ul>
           </nav>
     </header>
