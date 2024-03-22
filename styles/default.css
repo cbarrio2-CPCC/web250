@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+::-webkit-scrollbar {
+  width: 0;  
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+
 html, body{
   height: 100%;
   width: 90%;
@@ -145,16 +153,16 @@ div#everything-button-wrapper {
   grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
   gap: 1rem;
 }
-#fish-grid img {
+.fish-card img {
   width: 100%;
   height: auto;
 }
-#fish-grid figure{
+#fish-grid figure, .fish-card {
   background-color: #FBC4AB;
   padding: 1rem;
   border: 1px solid black;
 }
-#fish-grid figcaption {
+#fish-grid figcaption, .fish-card figcaption {
   font-size: 1.2rem;
   font-weight: bold;
   color: #004080;
@@ -186,4 +194,47 @@ div#everything-button-wrapper {
   font-weight: bold;
   color:red;
   margin:auto;
+}
+
+#review-wrapper {
+  display: flex;
+  height: 80vh;
+  width: 100%;
+  justify-content: center;
+  gap: 1rem;
+}
+#review-wrapper > * {
+  width: 30%;
+}
+
+#review-wrapper form {
+  display: flex;
+  flex-direction: column;
+}
+
+#review-section {
+  max-width: 100%;
+  overflow: auto;
+}
+
+.review-card {
+  display:flex;
+  flex-direction: column;
+  border: 1px solid #004080;
+  background-color: #FBC4AB;
+}
+
+.review-card div {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  gap: 1rem;
+}
+
+.review-card > * {
+  margin:1rem;
+}
+
+.review-card div p {
+  margin: 0;
 }

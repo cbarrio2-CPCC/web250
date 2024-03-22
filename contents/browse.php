@@ -20,6 +20,7 @@
                 <figcaption>
                     <h3>$fish[1]</h3>
                     <p>Price: $$fish[3]</p>
+                    <a href='?p=contents/review.php&fish=$fish[1]&img=$fish[4]&price=$fish[3]&id=$fish[0]'>Reviews</a>
                 </figcaption>
             </figure>
             ";

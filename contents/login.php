@@ -16,6 +16,7 @@
                     $row = $result->fetch_assoc();
                     if (password_verify($password, $row['password'])) {
                         $_SESSION['username'] = $username;
+                        $_SESSION['id'] = $row['id'];
                         $_SESSION['fname'] = $row['fname'];
                         $_SESSION['lname'] = $row['lname'];
                         $_SESSION['email'] = $row['email'];
