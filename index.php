@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang = "en">
 <head>
@@ -18,6 +22,14 @@
                     <li><a href="?p=contents/brand.php">Brand</a></li>
                     <li><a href="?p=contents/form.php">Form</a></li>
                     <li><a href="?p=contents/browse.php">Browse</a></li>
+                    <?php 
+                    if(isset($_SESSION["username"])) {
+                        $username = $_SESSION["username"];
+                        echo "<li><a href='?p=contents/account.php'>$username</a></li>";
+                    } else {
+                        echo "<li><a href='?p=contents/login.php'>Login</a></li>";
+                    }
+                    ?>
                </ul>
           </nav>
     </header>
