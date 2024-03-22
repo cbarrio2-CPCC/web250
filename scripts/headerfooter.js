@@ -9,6 +9,8 @@ window.addEventListener('DOMContentLoaded', ()=>{
                 <li><a href="introduction.html">Introduction</a></li>
                 <li><a href="contract.html">Contract</a></li>
                 <li><a href="brand.html">Brand</a></li>
+                <li><a href="http://clerickbarrion.great-site.net/?p=contents/form.php">Form</a></li>
+                <li><a href="http://clerickbarrion.great-site.net/?p=contents/browse.php">Browse</a></li>
             </ul>
         </nav>
     `
