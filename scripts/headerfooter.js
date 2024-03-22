@@ -11,6 +11,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
                 <li><a href="brand.html">Brand</a></li>
                 <li><a href="http://clerickbarrion.great-site.net/?p=contents/form.php">Form</a></li>
                 <li><a href="http://clerickbarrion.great-site.net/?p=contents/browse.php">Browse</a></li>
+                <li><a href="http://clerickbarrion.great-site.net/?p=contents/login.php">Login</a></li>
             </ul>
         </nav>
     `
