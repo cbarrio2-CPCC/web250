@@ -22,7 +22,8 @@
 
         if($userid){
             echo"
-            <form action='components/addreview.php' method='POST'>
+            <section>
+                <form action='components/addreview.php' method='POST'>
                     <h3>Leave a review</h3>
                     <label>Title:</label>
 
@@ -34,9 +35,9 @@
                     </div>
 
                     <label for='review'>Review:</label>
-      
+    
                     <textarea id='review' name='review' required></textarea>
-      
+    
                     <input type='hidden' name='fishid' value='$fishid'>
                     <input type='hidden' name='userid' value='$userid'>
                     <input type='hidden' name='price' value='$price'>
@@ -44,11 +45,41 @@
                     <input type='hidden' name='img' value='$img'>
                     <br>
                     <input type='submit' value='Submit'>
+                </form>
+                <form id='edit-review' action='components/editreview.php' method='POST'>
+                    <h3>Edit review</h3>
 
-            </form>
+                    <label>Title:</label>
+
+                    <input id='title' type='text' name='title' required>
+
+                    <label for='rating'>Rating:</label>
+                    <div>
+                        1 <input type='range' id='rating' name='rating' value='3' min='1' max='5' required> 5
+                    </div>
+
+                    <label for='review'>Review:</label>
+    
+                    <textarea id='review' name='review' required></textarea>
+
+                    <input type='hidden' name='fishid' value='$fishid'>
+                    <input type='hidden' name='userid' value='$userid'>
+                    <input type='hidden' name='price' value='$price'>
+                    <input type='hidden' name='fish' value='$fish'>
+                    <input type='hidden' name='img' value='$img'>
+                    <input type='hidden' name='reviewid'>
+                    <br>
+
+                    <div>
+                        <input type='submit' value='Save'>
+                        <input type='reset' value='Cancel'>
+                    </div>
+                </form>
+            </section>
             ";
         } else {
             echo "<h3>Log in to leave a review</h3>";
         }
     ?>
+    <script src='scripts/editreview.js'></script>
 </main>

@@ -238,3 +238,16 @@ div#everything-button-wrapper {
 .review-card div p {
   margin: 0;
 }
+
+.review-card form {
+  width: 50%;
+}
+
+#review-wrapper #edit-review {
+  display:none
+}
+
+#review-wrapper #edit-review div{
+  display: flex;
+  gap: 1rem;
+}

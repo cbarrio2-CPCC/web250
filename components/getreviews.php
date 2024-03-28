@@ -11,6 +11,7 @@
             $query = "SELECT username FROM account WHERE id = $review[1]";
             $result = $mysqli->query($query);
             $username = mysqli_fetch_row($result);
+            $edited = $review[5] ? "<em>(edited)</em>" : "";
 
             if($userid == $review[1]){
                 return "
@@ -18,15 +19,21 @@
                     <div>
                         <strong>$username[0]</strong><em>Posted on $review[4]</em>
                     </div>
+                    <em>$edited</em>
                     <hr>
                     <div>
                         <p>$review[3]/5</p><strong>$review[7]</strong>
                     </div>
                     <p>$review[6]</p>
-                    <form action='components/deletereview.php' method='POST'>
-                        <input type='hidden' name='reviewid' value='$review[0]'>
-                        <input type='submit' value='Delete'>
-                    </form>
+                    <div>
+                        <form class='edit-review' data-id='$review[0]' data-title='$review[7]' data-rating='$review[3]' data-review='$review[6]'>
+                            <input type='submit' value='Edit'>
+                        </form>
+                        <form action='components/deletereview.php' method='POST'>
+                            <input type='hidden' name='reviewid' value='$review[0]'>
+                            <input type='submit' value='Delete'>
+                        </form>
+                    </div>
                 </div>
                 ";
             } else {
@@ -35,6 +42,7 @@
                     <div>
                         <strong>$username[0]</strong><em>Posted on $review[4]</em>
                     </div>
+                    <em>$edited</em>
                     <hr>
                     <div>
                         <p>$review[3]/5</p><strong>$review[7]</strong>

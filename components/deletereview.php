@@ -4,5 +4,5 @@
     $query = $mysqli->prepare("DELETE FROM review WHERE id = ?");
     $query->bind_param('i', $reviewid);
     $query->execute();
-    header('Location: ../?p=contents/review.php');
+    header('Location: ../?p=contents/browse.php');
 ?>
