@@ -43,22 +43,27 @@ session_start();
 
     <footer>
           <ul>
-            <li><a href="https://github.com/cbarrio2-CPCC">Github</a></li>
-            <li><a href="https://cbarrio2-cpcc.github.io">Github.io</a></li>
+            <li><a href="https://github.com/cbarrio2-CPCC">GitHub</a></li>
+            <li><a href="https://cbarrio2-cpcc.github.io">GitHub.io</a></li>
             <li><a href="https://cbarrio2-cpcc.github.io/web250">WEB250.io</a></li>
-            <li><a href="https://www.freecodecamp.org/clerick">freecodecamp</a></li>
+            <li><a href="https://www.freecodecamp.org/clerick">freeCodeCamp</a></li>
             <li><a href="https://www.codecademy.com/profiles/cbarrion">Codecademy</a></li>
             <li><a href="https://jsfiddle.net/user/clerickbarrion">JSFiddle</a></li>
             <li><a href="https://www.linkedin.com/in/clerickbarrion">LinkedIn</a></li>
         </ul>
         <br>
         <p>Designed by Barrion CudaCorp &copy;2024</p>
-        <a href="http://validator.w3.org/check?uri=referer" style = "text-decoration: none">
-            <img src="images/validation_button_html-blue.png" alt="Validate HTML" />
-        </a>
-        <a href="http://jigsaw.w3.org/css-validator/validator?uri=referer" style = "text-decoration: none">
-            <img src="images/validation_button_css-blue.png" alt="Validate CSS" />
-        </a>
+        <?php 
+            $htmlurl = 'http://validator.w3.org/check?uri=http://clerickbarrion.great-site.net'.$_SERVER['REQUEST_URI'];
+            $cssurl = 'http://jigsaw.w3.org/css-validator/validator?uri=http://clerickbarrion.great-site.net'.$_SERVER['REQUEST_URI'];
+            echo "
+            <a href='$htmlurl' style = 'text-decoration: none'>
+                <img src='images/validation_button_html-blue.png' alt='Validate HTML' />
+            </a>
+            <a href='$cssurl' style = 'text-decoration: none'>
+                <img src='images/validation_button_css-blue.png' alt='Validate CSS' />
+            </a>";
+        ?>
     </footer>
 </body>
 </html>

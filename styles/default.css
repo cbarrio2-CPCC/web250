@@ -79,6 +79,10 @@ footer ul li a, nav ul li a {
   border: 1px solid #004080;
 }
 
+footer ul li a:first-child, nav ul li a:first-child {
+  border-left: none;
+}
+
 a {
   text-decoration: none;
 }
