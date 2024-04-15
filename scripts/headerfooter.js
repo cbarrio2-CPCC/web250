@@ -18,10 +18,10 @@ window.addEventListener('DOMContentLoaded', ()=>{
     const footer = document.querySelector('footer')
     footer.innerHTML = `
         <ul>
-            <li><a href="https://github.com/cbarrio2-CPCC">Github</a></li>
-            <li><a href="https://cbarrio2-cpcc.github.io">Github.io</a></li>
+            <li><a href="https://github.com/cbarrio2-CPCC">GitHub</a></li>
+            <li><a href="https://cbarrio2-cpcc.github.io">GitHub.io</a></li>
             <li><a href="https://cbarrio2-cpcc.github.io/web250">WEB250.io</a></li>
-            <li><a href="https://www.freecodecamp.org/clerick">freecodecamp</a></li>
+            <li><a href="https://www.freecodecamp.org/clerick">freeCodeCamp</a></li>
             <li><a href="https://www.codecademy.com/profiles/cbarrion">Codecademy</a></li>
             <li><a href="https://jsfiddle.net/user/clerickbarrion">JSFiddle</a></li>
             <li><a href="https://www.linkedin.com/in/clerickbarrion">LinkedIn</a></li>
