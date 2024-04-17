@@ -14,5 +14,5 @@
     $query->bind_param('issi', $rating, $review, $title, $reviewid);
     $query->execute();
 
-    header("Location: ../?p=contents/review.php&fish=$fish&img=$img&price=$price&id=$fishid");
+    echo "<script>window.location.href = '../?p=contents/review.php&fish=$fish&img=$img&price=$price&id=$fishid'</script>";
 ?>

@@ -3,11 +3,11 @@
     <?php
         if(isset($_POST["logout"])) {
             session_destroy();
-            header('Location: ?p=contents/home.php');
+            echo "<script>window.location.href = '?p=contents/home.php'</script>";
         }
         $username = $_SESSION['username'];
         if (!$username) {
-            header('Location: ?p=contents/login.php');
+            echo "<script>window.location.href = '?p=contents/login.php'</script>";
         }
         echo "<p>Welcome, $username. You have successfully logged in.</p>\n
               <p>You can now add a review and edit or delete any existing ones you created.</p>";
