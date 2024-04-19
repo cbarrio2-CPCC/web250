@@ -226,6 +226,7 @@ div#everything-button-wrapper {
   flex-direction: column;
   border: 1px solid #004080;
   background-color: #FBC4AB;
+  margin: 1rem;
 }
 
 .review-card div {
@@ -254,4 +255,14 @@ div#everything-button-wrapper {
 #review-wrapper #edit-review div{
   display: flex;
   gap: 1rem;
+}
+
+#logout-form {
+  width:fit-content;
+  margin: 1rem;
+}
+
+#logout-form input {
+  font-size: 1.5rem;
+  padding: 1rem;
 }

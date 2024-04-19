@@ -20,7 +20,7 @@
                         $_SESSION['fname'] = $row['fname'];
                         $_SESSION['lname'] = $row['lname'];
                         $_SESSION['email'] = $row['email'];
-                        header('Location: ?p=contents/account.php');
+                        echo "<script>window.location.href = '?p=contents/account.php'</script>";
                     } else {
                         echo 'Incorrect password. ';
                     }

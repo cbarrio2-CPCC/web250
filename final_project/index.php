@@ -51,8 +51,8 @@ session_start();
         <br>
         <p>Designed by Barrion CudaCorp &copy;2024</p>
         <?php 
-            $htmlurl = 'http://validator.w3.org/check?uri=http://clerickbarrion.great-site.net'.$_SERVER['REQUEST_URI'];
-            $cssurl = 'http://jigsaw.w3.org/css-validator/validator?uri=http://clerickbarrion.great-site.net'.$_SERVER['REQUEST_URI'];
+            $htmlurl = 'http://validator.w3.org/check?uri=https://cudacorp.000webhostapp.com'.$_SERVER['REQUEST_URI'];
+            $cssurl = 'http://jigsaw.w3.org/css-validator/validator?uri=https://cudacorp.000webhostapp.com'.$_SERVER['REQUEST_URI'];
             echo "
             <a href='$htmlurl' style = 'text-decoration: none'>
                 <img src='images/validation_button_html-blue.png' alt='Validate HTML' />

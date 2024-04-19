@@ -32,7 +32,7 @@
                             $query = $mysqli->prepare("INSERT INTO account (username, password, email, fname, lname) VALUES (?, ?, ?, ?, ?)");
                             $query->bind_param('sssss', $username, $password, $email, $fname, $lname);
                             $query->execute();
-                            echo 'Account created successfully.';
+                            echo 'Account created successfully. Go to the login page to login.';
                         }
                     }
                 }

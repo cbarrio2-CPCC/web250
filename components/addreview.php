@@ -13,6 +13,5 @@
     $query = $mysqli->prepare("INSERT INTO review (fishid, userid, rating, review, date, title) VALUES (?, ?, ?, ?, ?, ?)");
     $query->bind_param('iiisss', $fishid, $userid, $rating, $review, $date, $title);
     $query->execute();
-
-    header("Location: ../?p=contents/review.php&fish=$fish&img=$img&price=$price&id=$fishid");
+    echo "<script>window.location.href = '../?p=contents/review.php&fish=$fish&img=$img&price=$price&id=$fishid'</script>";
 ?>
