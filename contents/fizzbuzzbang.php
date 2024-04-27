@@ -65,7 +65,7 @@
                     $name = $_POST["name"];
                     $startnum = $_POST["startnum"];
                     $endnum = $_POST["endnum"];
-                    $output = "Hi $name! Here is $startnum-$endnum ${fizz}($fizznum)${buzz}($buzznum)${bang}($bangnum)ed: ";
+                    $output = "Hi $name! Here is $startnum-$endnum ${fizz}($fizznum)${buzz}($buzznum)${bang}($bangnum)ed:<br> ";
                     for($i = $startnum; $i <= $endnum; $i++) {
                         if($i % $fizznum == 0 && $i % $buzznum == 0 && $i % $bangnum == 0) {
                             $output .= "${fizz}${buzz}${bang}, ";
