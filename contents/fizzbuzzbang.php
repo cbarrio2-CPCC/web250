@@ -85,6 +85,8 @@
                             $output .= "$i, ";
                         }
                     }
+                    $output = rtrim($output, ", ");
+                    $output .= ".";
                     echo $output;
                 }
             ?>

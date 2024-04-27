@@ -14,7 +14,7 @@
         $exoticfish = mysqli_fetch_all($result);
 
         function fishCard($fish){
-            $html = "
+            echo "
             <figure class='fish-card'>
                 <a href='$fish[5]'><img src='$fish[4]' alt='$fish[1]'/></a>
                 <figcaption>
@@ -24,7 +24,6 @@
                 </figcaption>
             </figure>
             ";
-            echo $html;
         }
         
 
